@@ -1,0 +1,2 @@
+-trn MNIST -m mnet -d normal -dp "{'covar':'shr'}" --layers pool2 fc1 fc2
+--pca 0.995 -w /data3/nahuja/out-of-dist/MNIST/mnet/02May19_142940/MNIST_mnet_02May19_142940.pt --device 6 5 4 3

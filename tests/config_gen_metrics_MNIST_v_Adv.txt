@@ -1,0 +1,4 @@
+-trn MNIST -tep "{'train': false}" -m mnet --regularize -1
+--dist_params /data3/nahuja/out-of-dist/MNIST/mnet/02May19_142940/MNIST_mnet_02May19_142940_layers_012_normal_sep_params.pkl
+-w /data3/nahuja/out-of-dist/MNIST/mnet/02May19_142940/MNIST_mnet_02May19_142940.pt
+--adversarial FGSM --adversarial_params "{'epsilons': [0.1]}"

@@ -1,0 +1,1 @@
+-trn MNIST -tep "{'train': false}" -m mnet -op /home/svarada2/Desktop/probfeat/output/ -b 32 --epochs 25 --learning_rate 0.002 --optimizer adam --device 0

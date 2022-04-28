@@ -1,0 +1,3 @@
+-trn CIFAR100 -m resnet --model_params "{'num_classes': 100}" -d normal -dp "{'covar':'shr'}"
+--layers linear layer4 layer3 -w /data3/nahuja/out-of-dist/CIFAR100/resnet/pretrained/resnet_cifar100.pth
+--device 6 7 0 1 --pca 0.995 0.995 0.9 --pool 1 4 4

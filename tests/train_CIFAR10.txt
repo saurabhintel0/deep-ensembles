@@ -1,0 +1,2 @@
+-trn CIFAR10 -trp "{'transform':'cifar10_train'}" -tep "{'train':false}" -op /home/svarada2/Desktop/probfeat/code/cifar20 --train_ind /home/svarada2/Desktop/probfeat/code/cifar20.npy -m resnet20 -b 32 --epochs 80 --learning_rate 0.01 --optimizer sgd --sched_steps 35 70 --momentum 0.9 --weight_decay 5e-4 --lr_decay 0.1 
+
